@@ -1,0 +1,170 @@
+body{
+  margin: 0px;
+
+  background-color: white;
+
+  /*will center everything in the body with no width*/
+  text-align: center;
+}
+.top{
+  padding-bottom: 20px;
+}
+
+.profile{
+
+  padding-top: 5px;
+  padding-bottom: 25px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.adjust{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.skills{
+
+  padding-top: 5px;
+  padding-bottom: 10px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.skills2{
+
+  padding-top: 5px;
+  padding-bottom: 10px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.word{
+
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 50%;
+  margin: auto;
+
+}
+
+h1{
+  /* use margin to center in the body if there is a width */
+  /* 0 is top and bottom and auto is right and left */
+
+  font-size: 625%;  /*16px = 100% or 1em ----- 100px = 625% or 6.25em */
+  color: #e2cbb4;
+  text-shadow: 2px 2px #42417f;
+  font-family: 'Shojumaru', cursive;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h2{
+  font-family: 'Lilita One', cursive;
+  color: #ebefd0;
+  font-size: 50px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h3{
+  text-transform: uppercase;
+
+  margin: 0 auto;
+  font-size: 30px;
+  color: #42417f;
+  text-shadow: 1.5px 1.5px #e2cbb4;
+}
+
+.cloud1{
+  position: relative;
+  left:320px;
+  top: 120px;
+}
+.cloud2{
+position: relative;
+right: 300px;
+top:300px;
+}
+
+.bird{
+  position: relative;
+  top: 300px;
+}
+
+.mountain{
+  width: 500px;
+padding-top: 50px;
+padding-right: 0;
+padding-left: 0;
+padding-bottom: 0;
+}
+
+p{
+  font-family: 'Srisakdi', cursive;
+  font-size: 20px;
+}
+
+span{
+  font-family: sans-serif;
+  padding-left: 15px;
+  font-size: 20px;
+  color: #6639a6;
+
+}
+
+.surrenderText{
+  margin-bottom: 0;
+}
+.surrenderText2{
+margin: 0;
+}
+.surrender{
+  float: left;
+  padding-right: 20px;
+}
+.serveText{
+margin: 0;
+padding: 0;
+}
+.serveText2{
+margin-bottom: 0;
+}
+.serveImg{
+  float: right;
+  padding-left: 20px;
+}
+
+.cr{
+  position: absolute;
+  left: 450px;
+  top: 1210px;
+}
+
+.crText{
+margin-bottom: 0;
+}
+
+.crText2{
+margin-top: 10px;
+padding-top: 0;
+}
+.creator{
+  font-size: 20px;
+}
+.crImg{
+
+  float: left;
+  padding-right: 20px;
+}
+
+/* Cloud */
+
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+
+    box-shadow: 0 0 30px 1px black;
+    content: "\00a0";
+}
